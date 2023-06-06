@@ -1,0 +1,58 @@
+* {
+  font-family: "Monospace", "Lucida Console";
+}
+
+#container {
+  background-color: lightblue;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+#clock-header {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#time-length-controls {
+  background-color: white;
+}
+
+#break-label {
+  float: left;
+  width: 49%;
+  font-size: 20px;
+}
+
+#session-label {
+  float: right;
+  width: 49%;
+  font-size: 20px;
+}
+
+.controls {
+  display: grid;
+  padding-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;  
+}
+
+#timer {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#timer-label {
+  font-size: 20px;
+}
+
+#time-left {
+  font-size: 40px;
+}
+
+#time-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+}
